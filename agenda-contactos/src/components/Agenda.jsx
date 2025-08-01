@@ -1,5 +1,3 @@
-// src/components/AgendaApp.jsx
-//import './Agenda.css';
 
 import React, { useEffect, useState } from 'react';
 import Formulario from './formulario';
