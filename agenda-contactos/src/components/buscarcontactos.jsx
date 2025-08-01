@@ -1,4 +1,3 @@
-// src/components/BuscadorContactos.jsx
 import React from 'react';
 
 function BuscadorContactos({ filtrar }) {
