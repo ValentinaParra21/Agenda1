@@ -1,4 +1,4 @@
-// src/components/Contacto.jsx
+
 import React from 'react';
 
 function Contacto({ contacto }) {
