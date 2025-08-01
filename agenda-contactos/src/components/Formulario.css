@@ -1,0 +1,99 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  margin-left: 50px;
+  width: 100%;
+  max-width: 420px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: #1e3a8a;
+    margin-left: 58px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  margin-left: 70px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cancel-button,
+.submit-button {
+  flex: 1;
+  padding: 0.6rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-button {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.cancel-button:hover {
+  background-color: #d1d5db;
+}
+
+.submit-button {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+.submit-button:disabled {
+  background-color: #000313;
+  cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #ffffff;
+}
