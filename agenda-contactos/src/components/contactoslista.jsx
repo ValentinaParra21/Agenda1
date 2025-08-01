@@ -1,4 +1,4 @@
-// src/components/ListaContactos.jsx
+
 import React from 'react';
 
 function ListaContactos({ contactos, eliminarContacto }) {
